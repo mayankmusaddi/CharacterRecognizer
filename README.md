@@ -33,7 +33,7 @@ The Project is a simple Character recogniser which could be trained with any cus
   Note: All dependencies for current build can be found in dependencies.txt
 
 ## Usage
-#### [training.py](https://github.com/mayankmusaddi/CharacterRecognizer/training.py)
+#### [training.py](https://github.com/mayankmusaddi/CharacterRecognizer/blob/master/training.py)
 A training program for classifying the EMNIST dataset
 
 Usage:
@@ -52,14 +52,14 @@ Usage:
     --epochs EPOCHS       Number of epochs to train on
     --verbose         Enables verbose printing
 
-#### [recognizer.py](https://github.com/mayankmusaddi/CharacterRecognizer/recognizer.py)
-A python app for testing models generated from [training.py](https://github.com/mayankmusaddi/CharacterRecognizer/training.py) on the EMNIST dataset, for labelled images provided by the user.
-For the images currently in the [Labelled](https://github.com/mayankmusaddi/CharacterRecognizer/Labelled) folder, the accuracy of the algorithm comes out to be more than 60%.
+#### [recognizer.py](https://github.com/mayankmusaddi/CharacterRecognizer/blob/master/recognizer.py)
+A python app for testing models generated from [training.py](https://github.com/mayankmusaddi/CharacterRecognizer/blob/master/training.py) on the EMNIST dataset, for labelled images provided by the user.
+For the images currently in the [Labelled](https://github.com/mayankmusaddi/CharacterRecognizer/tree/master/Labelled) folder, the accuracy of the algorithm comes out to be more than 60%.
 
 Usage:
     python3 recognizer.py
 
 ##### Directory Briefing:
- - The [Labelled](https://github.com/mayankmusaddi/CharacterRecognizer/Labelled) folder contains all the images for which the first word of its name is the the label for that image.
- - After running the recognizer all the images which are incorrectly predicted are stored in the [ERROR](https://github.com/mayankmusaddi/CharacterRecognizer/ERROR) folder.
- - The images in the [ERROR](https://github.com/mayankmusaddi/CharacterRecognizer/ERROR) folder have their last word in their name as the predicted character.
+ - The [Labelled](https://github.com/mayankmusaddi/CharacterRecognizer/tree/master/Labelled) folder contains all the images for which the first word of its name is the the label for that image.
+ - After running the recognizer all the images which are incorrectly predicted are stored in the [ERROR](https://github.com/mayankmusaddi/CharacterRecognizer/tree/master/ERROR) folder.
+ - The images in the [ERROR](https://github.com/mayankmusaddi/CharacterRecognizer/tree/master/ERROR) folder have their last word in their name as the predicted character.
